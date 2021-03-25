@@ -26,22 +26,21 @@
 ---
 
 - [**교수님 미팅 잡는 사이트**](https://calendly.com/stahn76/meeting)
-- [**졸업프로젝트 깃헙**](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu)
 - 
 
 ## 공부 해야 될 사이트들
 
 ---
 
-PyTorch-GAN([https://github.com/eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN))
+[PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN)
 
-PyTorch로 시작하는 딥 러닝 입문([https://wikidocs.net/book/2788](https://wikidocs.net/book/2788))
+[PyTorch로 시작하는 딥 러닝 입문](https://wikidocs.net/book/2788))
 
-PyTorch 환경 설정([https://chancoding.tistory.com/90?category=834029](https://chancoding.tistory.com/90?category=834029))
+[PyTorch 환경 설정](https://chancoding.tistory.com/90?category=834029)
 
-코랩사용하고 싶으면 요것([https://chancoding.tistory.com/103?category=834029](https://chancoding.tistory.com/103?category=834029))
+[코랩사용하고 싶으면 요것](https://chancoding.tistory.com/103?category=834029)
 
-GAN 연습([https://debuggercafe.com/implementing-deep-convolutional-gan-with-pytorch/](https://debuggercafe.com/implementing-deep-convolutional-gan-with-pytorch/))
+[GAN 연습](https://debuggercafe.com/implementing-deep-convolutional-gan-with-pytorch/)
 
 ## 참고 사이트
 
@@ -57,12 +56,10 @@ GAN 연습([https://debuggercafe.com/implementing-deep-convolutional-gan-with-py
 
 ## 회의록
 
----
 
 
 
 ## 수업자료
 
----
 
 
