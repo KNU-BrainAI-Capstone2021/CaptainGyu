@@ -2,3 +2,5 @@
 
 Git  
 
+## Agenda  
+[210428 Pytorch Study]()
