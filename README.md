@@ -1,4 +1,4 @@
-<table align= "center" border="0">
+
 # 2021년 1학기 졸업프로젝트
 
 Git  
