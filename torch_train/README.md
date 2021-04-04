@@ -1,7 +1,8 @@
 # torch_train
 reference : https://pytorch.org/tutorials/
+
 - [Learn the Basics](https://pytorch.org/tutorials/beginner/basics/intro.html)
-  - Tensors
+  - Tensors 
   - Datasets & DataLoaders
   - Transforms
   - Build Model
@@ -24,3 +25,5 @@ reference : https://pytorch.org/tutorials/
   - PyTorch : optim
   - PyTorch : Custom nn Modules
   - PyTorch : Control Flow + Weight Sharing
+
+

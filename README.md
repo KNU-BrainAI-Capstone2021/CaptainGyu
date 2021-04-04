@@ -17,4 +17,3 @@ Git
 ![MNIST_GIF](./img/generator_images.gif)  
 ![Torch_Study](./img/FashionMNIST.png)
 
-</table>
