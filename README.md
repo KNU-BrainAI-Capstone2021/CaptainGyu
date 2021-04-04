@@ -16,4 +16,10 @@ Git
 
 ![MNIST_GIF](./img/generator_images.gif)  
 ![Torch_Study](./img/FashionMNIST.png)
-
+　  
+- MTCNN(To tracked face)  
+  
+|Before|After|
+|------|---|
+|![Video](img/video.gif)  |![Video_tracked](/img/video_tracked.gif)|
+|![Video](img/vidoe_news.gif)|![Video_tracked](img/video_news_tracked.gif)|
