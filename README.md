@@ -2,7 +2,7 @@
 # 2021년 1학기 졸업프로젝트
 
 
-
+## Each Person
 - 김민철
   - [Torch Study](https://github.com/alscjf909/torch_GAN)
 - 이원규
