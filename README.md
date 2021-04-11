@@ -8,7 +8,7 @@
 - 이원규
   - [Torch Study](https://github.com/dnjsrb0710/Deep-learning-pytoch-)
 - 표승완
-  - [](https://github.com/ghtydnty1/pytorch)
+  - [Torch Study](https://github.com/ghtydnty1/pytorch)
 - 신준철
   - [Torch Study](https://github.com/ewsn1593?tab=repositories)
 - 홍성목
