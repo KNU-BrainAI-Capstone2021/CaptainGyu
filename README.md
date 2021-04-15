@@ -20,6 +20,8 @@
 ## Agenda  
 - [Torch Study](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/tree/main/torch_train)
 - [GAN Study](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/tree/main/paper)
+- [GAN dataset make Face 68 landmark](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/tree/main/facent-pytorch)
+
 
 
 ## Our Progress....
@@ -38,4 +40,3 @@
 |------|---|
 |![Video](img/video.gif)  |![Video_tracked](/img/video_tracked.gif)|
 |![Video](img/vidoe_news.gif)|![Video_tracked](img/video_news_tracked.gif)|
-d
