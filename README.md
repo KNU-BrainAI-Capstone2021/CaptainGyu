@@ -1,7 +1,7 @@
 
 # 2021년 1학기 졸업프로젝트
 
-
+![CaptinGyu_logo](img/CaptinGyu_logo.jpg)
 ## Each Person
 - 김민철
   - [Torch Study](https://github.com/alscjf909/torch_GAN)
