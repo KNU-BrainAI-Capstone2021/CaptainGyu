@@ -26,8 +26,9 @@
 
 ## Our Progress....
 
-- [Pytorch Study](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/tree/main/vanila_gan)  
-- [DCGAN Study](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/blob/main/paper/1511.06434.pdf)
+### [Pytorch Study](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/tree/main/vanila_gan)  
+
+### [DCGAN Study](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/blob/main/paper/1511.06434.pdf)
 
 
 
@@ -35,9 +36,13 @@
 ![Torch_Study](./img/FashionMNIST.png)
 　  
 
-- MTCNN(To tracked face)  
+### MTCNN(To tracked face)  
   
 |Before|After|
 |------|---|
 |![Video](img/video.gif)  |![Video_tracked](/img/video_tracked.gif)|
 |![Video](img/vidoe_news.gif)|![Video_tracked](img/video_news_tracked.gif)|
+
+### Face Landmark
+
+![video_landmark](img/video_landmark.gif)
