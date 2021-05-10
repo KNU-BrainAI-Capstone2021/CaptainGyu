@@ -34,6 +34,7 @@
 ![MNIST_GIF](./img/generator_images.gif)  
 ![Torch_Study](./img/FashionMNIST.png)
 　  
+
 - MTCNN(To tracked face)  
   
 |Before|After|
