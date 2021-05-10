@@ -16,6 +16,8 @@
 ## Useful Links  
 - [Youtube Download](https://ko.savefrom.net/1-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%B9%84%EB%94%94%EC%98%A4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95.html)
 - [Transform MP4 to GIF](https://ezgif.com/)
+- [Server](/server/server.md)
+
 
 ## Agenda  
 - [Torch Study](https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/tree/main/torch_train)
