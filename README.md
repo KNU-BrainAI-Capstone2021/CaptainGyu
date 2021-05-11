@@ -34,7 +34,8 @@
 
 
 
-![MNIST_GIF](./img/generator_images.gif)  
+![MNIST_GIF](./img/generator_images.gif)
+![DCGAN_FACE](./img/video_dcgan.gif)  
 ![Torch_Study](./img/FashionMNIST.png)
 　  
 
