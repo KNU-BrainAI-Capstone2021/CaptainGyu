@@ -47,3 +47,10 @@
 ### Face Landmark
 
 ![video_landmark](img/video_landmark.gif)
+
+여러 face detection model에서 각자의 FPS를 비교해보았다.  
+|.|MTCNN|dlib|dlib-cnn|
+|---|------|---|----|
+|result|![Video](img/mtcnn.gif)  |![Video](img/dlib.gif)|![video](img/dlib-cnn.gif)|
+|FPS|![MTCNN-FPS](./face_detect/img/facenet_FPS.PNG)|![dlib](./face_detect/img/dlib_FPS.PNG)|![dlib-cnn](./face_detect/img/dlib_cnn_FPS.PNG)|
+
