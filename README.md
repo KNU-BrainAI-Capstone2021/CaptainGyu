@@ -42,7 +42,14 @@
 　  
 
 ### MTCNN(To tracked face)  
-  
+|MTCNN_P-net|MTCNN_R-net|MTCNN_O-net|
+|----|-----|----|
+|![Pnet](img/mtcnn_Pnet.png)|![Rnet](img/mtcnn_Rnet.png)|![Onet](img/mtcnn_Onet.png)
+
+[MTCNN구조 참고자료](https://yeomko.tistory.com/16)
+
+<br>
+
 |Before|After|
 |------|---|
 |![Video](img/video.gif)  |![Video_tracked](/img/video_tracked.gif)|
