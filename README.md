@@ -3,16 +3,12 @@
 
 ![CaptinGyu_logo](img/CaptinGyu_logo.jpg)
 ## Each Person
-- 김민철
-  - [Torch Study](https://github.com/alscjf909/torch_GAN)
-- 이원규
-  - [Torch Study](https://github.com/dnjsrb0710/Deep-learning-pytoch-)
-- 표승완
-  - [Torch Study](https://github.com/ghtydnty1/pytorch)
-- 신준철
-  - [Torch Study](https://github.com/ewsn1593?tab=repositories)
-- 홍성목
-  - [Torch Stduy](https://github.com/swff07183)
+
+[김민철](https://github.com/alscjf909)
+[이원규](https://github.com/dnjsrb0710)
+[표승완](https://github.com/ghtydnty1)
+[신준철](https://github.com/ewsn1593)
+[홍성목](https://github.com/swff07183)
 ## Useful Links  
 - [Youtube Download](https://ko.savefrom.net/1-%EC%9C%A0%ED%8A%9C%EB%B8%8C-%EB%B9%84%EB%94%94%EC%98%A4-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95.html)
 - [Transform MP4 to GIF](https://ezgif.com/)
@@ -58,3 +54,10 @@
 ### Face Landmark
 
 ![video_landmark](img/video_landmark.gif)
+
+여러 face detection model에서 각자의 FPS를 비교해보았다.  
+|.|MTCNN|dlib|dlib-cnn|
+|---|------|---|----|
+|result|![Video](img/mtcnn.gif)  |![Video](img/dlib.gif)|![video](img/dlib-cnn.gif)|
+|FPS|![MTCNN-FPS](./face_detect/img/facenet_FPS.PNG)|![dlib](./face_detect/img/dlib_FPS.PNG)|![dlib-cnn](./face_detect/img/dlib_cnn_FPS.PNG)|
+

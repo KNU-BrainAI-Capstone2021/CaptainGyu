@@ -1,0 +1,64 @@
+import dlib
+import cv2
+import sys
+import time
+
+## face detector와 landmark predictor 정의
+detector = dlib.cnn_face_detection_model_v1(sys.argv[1])
+
+
+## 비디오 읽어오기 및 저장하기
+cap = cv2.VideoCapture('./input/test.mp4')
+fourcc = cv2.VideoWriter_fourcc(*'FMP4')
+out = cv2.VideoWriter('dlib_cnn_tracked.mp4', fourcc, 20, (640, 480),isColor=True)
+
+# create list for landmarks
+ALL = list(range(0, 68))
+RIGHT_EYEBROW = list(range(17, 22))
+LEFT_EYEBROW = list(range(22, 27))
+RIGHT_EYE = list(range(36, 42))
+LEFT_EYE = list(range(42, 48))
+NOSE = list(range(27, 36))
+MOUTH_OUTLINE = list(range(48, 61))
+MOUTH_INNER = list(range(61, 68))
+JAWLINE = list(range(0, 17))
+
+est_FPS = 0
+
+
+if cap.isOpened():
+    while True:
+        ret, img = cap.read()
+
+        # resize the video
+        image = cv2.resize(img, dsize=(640, 480), interpolation=cv2.INTER_AREA)
+
+        # estimate FPS start
+        preTime = time.time()
+
+        # Get faces (up-sampling=1)
+        face_detector = detector(image, 1)
+        # loop as the number of face
+        # one loop belong to one face
+        for face in face_detector:
+        # face wrapped with rectangle
+            cv2.rectangle(image, (face.rect.left(), face.rect.top()), (face.rect.right(), face.rect.bottom()),
+                        (0, 0, 255), 3)
+
+        # calculate FPS
+        dstTime = time.time()
+        est_FPS = (1./(dstTime - preTime))
+
+        cv2.imshow('result', image)
+        out.write(image)
+        print("dlib cnn FPS : {}", est_FPS)
+        # wait for keyboard input
+        key = cv2.waitKey(1)
+
+        # if esc,
+        if key == 27:
+            break
+
+cap.release()
+out.release()
+cv2.destroyAllWindows()
