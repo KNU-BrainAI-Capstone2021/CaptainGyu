@@ -38,7 +38,14 @@
 　  
 
 ### MTCNN(To tracked face)  
-  
+|MTCNN_P-net|MTCNN_R-net|MTCNN_O-net|
+|----|-----|----|
+|![Pnet](img/mtcnn_Pnet.png)|![Rnet](img/mtcnn_Rnet.png)|![Onet](img/mtcnn_Onet.png)
+
+[MTCNN구조 참고자료](https://yeomko.tistory.com/16)
+
+<br>
+
 |Before|After|
 |------|---|
 |![Video](img/video.gif)  |![Video_tracked](/img/video_tracked.gif)|
@@ -54,3 +61,9 @@
 |result|![Video](img/mtcnn.gif)  |![Video](img/dlib.gif)|![video](img/dlib-cnn.gif)|
 |FPS|![MTCNN-FPS](./face_detect/img/facenet_FPS.PNG)|![dlib](./face_detect/img/dlib_FPS.PNG)|![dlib-cnn](./face_detect/img/dlib_cnn_FPS.PNG)|
 
+### AutoEncoder
+![image](autoencoder/autoencoder.png) 
+
+| |ANN|CNN|
+|---|------|---|
+|result|![image](autoencoder/ouput/ANN_result.JPG)  |![image](autoencoder/ouput/CNN_result.JPG)|
