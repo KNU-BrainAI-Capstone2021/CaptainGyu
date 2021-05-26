@@ -69,4 +69,8 @@ AutoEncoder 실습 결과
 
 | |ANN|CNN|
 |---|------|---|
-|result|![image](autoencoder/ouput/ANN_result.JPG)  |![image](autoencoder/ouput/CNN_result.JPG)|
+|result|![image](autoencoder/ouput/ANN_result.JPG)  |![image](autoencoder/ouput/CNN_result.JPG)
+
+### Model construction (DF structure)
+
+![DF_model](img/DF_model.PNG)
