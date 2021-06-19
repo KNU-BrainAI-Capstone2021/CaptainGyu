@@ -71,6 +71,13 @@ AutoEncoder 실습 결과
 |---|------|---|
 |result|![image](autoencoder/ouput/ANN_result.JPG)  |![image](autoencoder/ouput/CNN_result.JPG)
 
-### Model construction (DF structure)
+### Model construction (DF structure)  
 
-![DF_model](img/DF_model.PNG)
+![DF_model](img/DF_model.PNG)  
+  
+[DF 네트워크 코드](model/network.py)  
+
+### Model Training  
+논문에서는 `MSE + Structural Dissimilarity` 를 `Loss`로 사용하고 있다.  
+기존 `torch`에 구현되어 있지 않아 따로 코드를 작성하였다.  
+[Custom Loss (MSE + DISSIM) 작섣 코드](model/DFloss.py)
