@@ -89,10 +89,10 @@ AutoEncoder 실습 결과
 
 + Test
 
-| |source|mask|target|
-|---|------|---|---|
-|example|![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
+|source|mask|target|
+|---|------|---|
+|![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
 
-+ result
+#### Result
 
 ![image](Blending/result.png)
