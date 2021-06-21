@@ -71,6 +71,9 @@ AutoEncoder 실습 결과
 |---|------|---|
 |result|![image](autoencoder/ouput/ANN_result.JPG)  |![image](autoencoder/ouput/CNN_result.JPG)
 
++ [ANN코드](autoencoder/ANN_autoencoder.py)
++ [CNN코드](autoencoder/CNN_autoencoder.py)
+
 ### Model construction (DF structure)  
 
 ![DF_model](img/DF_model.PNG)  
