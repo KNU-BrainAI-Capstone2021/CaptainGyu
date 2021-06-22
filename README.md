@@ -93,6 +93,14 @@ AutoEncoder 실습 결과
 |---|------|---|
 |![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
 
-#### Result
+#### Result1
 
 ![image](Blending/result.png)
+
+#### Result2
+
++ target을 source로 바꿔서 진행한 결과
+
+![image](Blending/final.png)
+
+[Blender코드](Blending/poisson_blender.py)
