@@ -80,4 +80,12 @@ AutoEncoder 실습 결과
 ### Model Training  
 논문에서는 `MSE + Structural Dissimilarity` 를 `Loss`로 사용하고 있다.  
 기존 `torch`에 구현되어 있지 않아 따로 코드를 작성하였다.  
-[Custom Loss (MSE + DISSIM) 작성 코드](model/DFLoss.py)
+[Custom Loss (MSE + DISSIM) 작성 코드](model/DFLoss.py)  
+  
+[Training_util 코드](model/Train_util.py)  
+[Conversion_util 코드](model/Conversion_util.py)    
+[Training Conversion 코드](model/Train_Conversion.py)  
+
+Training Loss 변화 관측  
+![Training_Loss](img/Loss.png)
+
