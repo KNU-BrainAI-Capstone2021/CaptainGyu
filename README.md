@@ -101,7 +101,7 @@ Training Loss 변화 관측 결과
 |---|------|---|
 |![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
 
-#### Test Result1
+#### Test Result
 
 ![image](Blending/result.png)
 
