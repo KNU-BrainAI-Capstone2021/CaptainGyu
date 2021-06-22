@@ -93,11 +93,11 @@ AutoEncoder 실습 결과
 |---|------|---|
 |![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
 
-#### Result1
+#### Test Result1
 
 ![image](Blending/result.png)
 
-#### Result2
+#### Final result
 
 + target을 source로 바꿔서 진행한 결과
 
