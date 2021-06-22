@@ -83,9 +83,25 @@ AutoEncoder 실습 결과
 ### Model Training  
 논문에서는 `MSE + Structural Dissimilarity` 를 `Loss`로 사용하고 있다.  
 기존 `torch`에 구현되어 있지 않아 따로 코드를 작성하였다.  
-[Custom Loss (MSE + DISSIM) 작성 코드](model/DFLoss.py)
+[Custom Loss (MSE + DISSIM) 작성 코드](model/DFLoss.py)  
+  
+실제 학습과 Conversion을 수행하는 코드와 이 과정에서 사용되는 함수를 분리하여 코드를 작성하였다.  
+[Training_util 코드](model/Train_util.py)  
+[Conversion_util 코드](model/Conversion_util.py)    
+[Training Conversion 코드](model/Train_Conversion.py)  
+
+Training Loss 변화 관측 결과  
+![Training_Loss](img/Loss.png)
 
 ### blending 
++ poisson blending
+
+source 와 target의 경계면에서의 피부 톤을 match 시키기 위해 본 프로젝트에서는 poisson blending을 사용한다. 
++ Laplacian of Gaussian(LoG) , Laplacian mask
+
+|LOG|mask|
+|---|---|
+|![image](Blending/LOG.bmp)  |![image](Blending/laplacian_mask.png) |
 
 + Test
 
@@ -93,6 +109,12 @@ AutoEncoder 실습 결과
 |---|------|---|
 |![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
 
-#### Result
+
+#### blending result
+
+
 
 ![image](Blending/result.png)
+
+[Blender코드](Blending/poisson_blender.py)
+
