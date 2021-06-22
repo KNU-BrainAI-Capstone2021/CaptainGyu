@@ -94,6 +94,15 @@ Training Loss 변화 관측 결과
 ![Training_Loss](img/Loss.png)
 
 ### blending 
++ poisson blending
+
+source 와 target의 경계면에서의 피부 톤을 match 시키기 위해 본 프로젝트에서는 poisson blending을 사용한다. 
++ Laplacian of Gaussian(LoG) , Laplacian mask
+
+|LOG|mask|
+|---|------|
+|![image](Blending/LOG.bmp)  |![image](Blending/laplacian mask.png)|
+
 
 + Test
 
@@ -101,15 +110,12 @@ Training Loss 변화 관측 결과
 |---|------|---|
 |![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
 
-#### Test Result
+
+#### blending result
+
+
 
 ![image](Blending/result.png)
-
-#### Final result
-
-+ target을 source로 바꿔서 진행한 결과
-
-![image](Blending/final.png)
 
 [Blender코드](Blending/poisson_blender.py)
 
