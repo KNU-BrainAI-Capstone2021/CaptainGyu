@@ -71,6 +71,9 @@ AutoEncoder 실습 결과
 |---|------|---|
 |result|![image](autoencoder/ouput/ANN_result.JPG)  |![image](autoencoder/ouput/CNN_result.JPG)
 
++ [ANN코드](autoencoder/ANN_autoencoder.py)
++ [CNN코드](autoencoder/CNN_autoencoder.py)
+
 ### Model construction (DF structure)  
 
 ![DF_model](img/DF_model.PNG)  
@@ -82,10 +85,31 @@ AutoEncoder 실습 결과
 기존 `torch`에 구현되어 있지 않아 따로 코드를 작성하였다.  
 [Custom Loss (MSE + DISSIM) 작성 코드](model/DFLoss.py)  
   
+실제 학습과 Conversion을 수행하는 코드와 이 과정에서 사용되는 함수를 분리하여 코드를 작성하였다.  
 [Training_util 코드](model/Train_util.py)  
 [Conversion_util 코드](model/Conversion_util.py)    
 [Training Conversion 코드](model/Train_Conversion.py)  
 
-Training Loss 변화 관측  
+Training Loss 변화 관측 결과  
 ![Training_Loss](img/Loss.png)
+
+### blending 
+
++ Test
+
+|source|mask|target|
+|---|------|---|
+|![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
+
+#### Result1
+
+![image](Blending/result.png)
+
+#### Result2
+
++ target을 source로 바꿔서 진행한 결과
+
+![image](Blending/final.png)
+
+[Blender코드](Blending/poisson_blender.py)
 
