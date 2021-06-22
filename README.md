@@ -101,7 +101,7 @@ source 와 target의 경계면에서의 피부 톤을 match 시키기 위해 본
 
 |LOG|mask|
 |---|---|
-|![image](Blending/LOG.bmp)  |![image](Blending/laplacian mask.png) |
+|![image](Blending/LOG.bmp)  |![image](Blending/laplacian_mask.png) |
 
 + Test
 
