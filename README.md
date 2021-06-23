@@ -108,14 +108,14 @@ source 와 target의 경계면에서의 피부 톤을 match 시키기 위해 본
 
 |source|mask|target|
 |---|------|---|
-|![image](Blending/source.png)  |![image](Blending/mask.png)|![image](Blending/target.png)
+|![image](Blending/source2.png)  |![image](Blending/mask2.png)|![image](Blending/target2.png)
 
 
 #### blending result
 
 
 
-![image](Blending/result.png)
+![image](Blending/result2.png)
 
 [Blender코드](Blending/poisson_blender.py)
 
