@@ -10,7 +10,7 @@
 
 
 ## Plan
-![](img/plan.png)
+![](2nd_Semester/img/plan.png)
 
 ## Each Person
 [이원규](https://github.com/dnjsrb0710)
@@ -31,4 +31,22 @@
 
 ## Our Progress....
 
-![](img/CEViT.png)
+### Cross Efficient Vision Transformer
+
+![](2nd_Semester/img/CEViT.png)
+<br>
+
+### EfficientNet
+![EfficientNet_1.png](2nd_Semester/EfficientNet/EfficientNet_1.png)
+![EfficientNet_3.png](2nd_Semester/EfficientNet/EfficientNet_3.png)
+![EfficientNet_2.png](2nd_Semester/EfficientNet/EfficientNet_2.png)
+#### [EfficientNet 실습코드](2nd_Semester/EfficientNet/EfficientNet.ipynb)
+
+<br>
+
+![EfficientNet_result](2nd_Semester/EfficientNet/EfficientNet_result.png)
+
+<br>
+
+### VisionTransformer
+
