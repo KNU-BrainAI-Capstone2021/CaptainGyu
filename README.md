@@ -11,7 +11,7 @@
 
 ## Plan
 ![](2nd_Semester/img/plan.png)
-
+ㅑ
 ## Each Person
 [이원규](https://github.com/dnjsrb0710)
 [표승완](https://github.com/ghtydnty1)
@@ -37,10 +37,11 @@
 <br>
 
 ### EfficientNet
+#### [EfficientNet 실습코드](2nd_Semester/EfficientNet/EfficientNet.ipynb)
+
 ![EfficientNet_1.png](2nd_Semester/EfficientNet/EfficientNet_1.png)
 ![EfficientNet_3.png](2nd_Semester/EfficientNet/EfficientNet_3.png)
 ![EfficientNet_2.png](2nd_Semester/EfficientNet/EfficientNet_2.png)
-#### [EfficientNet 실습코드](2nd_Semester/EfficientNet/EfficientNet.ipynb)
 
 <br>
 
@@ -50,3 +51,10 @@
 
 ### VisionTransformer
 
+#### [VisionTransformer 실습코드](2nd_Semester/VisionTransformer/VisionTransformer.ipynb)
+
+![VisionTransformer](2nd_Semester/VisionTransformer/VisionTransformer.png)
+
+<br>
+
+![VisionTransformer_result](2nd_Semester/VisionTransformer/VisionTransformer_result.png)
