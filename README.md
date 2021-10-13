@@ -11,7 +11,7 @@
 
 ## Plan
 ![](2nd_Semester/img/plan.png)
-ㅑ
+
 ## Each Person
 [이원규](https://github.com/dnjsrb0710)
 [표승완](https://github.com/ghtydnty1)
@@ -46,6 +46,7 @@
 <br>
 
 ![EfficientNet_result](2nd_Semester/EfficientNet/EfficientNet_result.png)
+
 
 <br>
 
