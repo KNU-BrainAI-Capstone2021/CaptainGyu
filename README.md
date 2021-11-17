@@ -42,6 +42,11 @@
 ![EfficientNet_1.png](2nd_Semester/EfficientNet/EfficientNet_1.png)
 ![EfficientNet_3.png](2nd_Semester/EfficientNet/EfficientNet_3.png)
 ![EfficientNet_2.png](2nd_Semester/EfficientNet/EfficientNet_2.png)
+#### MBconv Block
+![MBconv.png](2nd_Semester/img/MBconv.JPG)
+<br>
+
+What is [Inverted residual block](2nd_Semester/img/inverted_residual.JPG) / [Depthwise conv](2nd_Semester/img/depthwise.JPG) / [Swish function](2nd_Semester/img/swish.JPG) / [SENET](2nd_Semester/img/senet.JPG) ?
 
 <br>
 
@@ -59,3 +64,11 @@
 <br>
 
 ![VisionTransformer_result](2nd_Semester/VisionTransformer/VisionTransformer_result.png)
+
+### Result - Cross Efficient VIT(pre-trained model)
+
+####Face Forencsics++ dataset(20)
+![pre-trained model result](2nd_Semester/img/face_forensics_data.png)
+
+####Our dataset(2) - from semester 1
+![pre-trained model result](2nd_Semester/img/our_dataset.JPG)
