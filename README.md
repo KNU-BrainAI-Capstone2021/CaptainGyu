@@ -67,8 +67,8 @@ What is [Inverted residual block](2nd_Semester/img/inverted_residual.JPG) / [Dep
 
 ### Result - Cross Efficient VIT(pre-trained model)
 
-####Face Forencsics++ dataset(20)
+#### Face Forencsics++ dataset(20)
 ![pre-trained model result](2nd_Semester/img/face_forensics_data.png)
 
-####Our dataset(2) - from semester 1
+#### Our dataset(2) - from semester 1
 ![pre-trained model result](2nd_Semester/img/our_dataset.JPG)
