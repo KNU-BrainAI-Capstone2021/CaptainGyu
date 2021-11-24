@@ -80,3 +80,6 @@ What is [Inverted residual block](2nd_Semester/img/inverted_residual.JPG) / [Dep
 
 ![hm2](2nd_Semester/img/hm2.png)
 
+[hm](hm)
+
+
