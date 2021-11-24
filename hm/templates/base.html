@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>DeepFake Detection{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <div id="nav">
+        <span id="knu_map">DFDC Detection</span>
+    </div>
+    <div id="map">
+    {% block content %}
+
+    {% endblock %}
+    </div>
+    <!--
+    <div id="footer">
+        <div id="wrapper">
+            <span>메일주소무단수집거부</span><br>
+
+            <span>대구광역시 북구 산격3동(대학로80) 경북대학교 IT-1호관 108호</span><br>
+            <span>Email : </span><br>
+
+            <span>copyright © 경북대학교 IT대학 학술동아리 해달, All Rights Reserved</span><br>
+            <span>기획 :  | 개발 : </span>
+        </div>
+    </div>
+    -->
+
+
+
+    <script src="{% static 'base.js' %}"></script>
+</body>
+</html>
