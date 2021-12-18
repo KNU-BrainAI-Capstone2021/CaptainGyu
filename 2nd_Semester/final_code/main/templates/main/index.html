@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% load static %}
+		<title>DEEPFAKE DETECTION</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="{% static 'main/deepfakestyle.css' %}">
+
+		<meta name ="description" content = "Gyu졸업프로젝트">
+		<style>
+			body{
+	        height: 100%;
+	        background-image: url("https://github.com/KNU-BrainAI-Capstone2021/CaptainGyu/blob/main/img/CaptinGyu_logo.jpg?raw=true");
+	        background-repeat : no-repeat;
+	        background-size : cover;
+	      	}
+      </style>
+
+
+	</head>
+	<body>
+		<div class = "item1">DEEP-FAKE-DETECTION <br></div>
+		<div class = "item2">TEAM : CAPTAIN GYU <br> </div>
+
+	    <div class = "item3">
+	    조원 : 신준철, 이원규, 표승완, 홍성목<br>
+	    담당교수 : 안상태 교수님<br><br>
+		</div>
+	    <div class = "item4"> 2021년 1학기 부터 시작한 졸업프로젝트를 마무리 하고 <br>실제로 적용되는 모습을 보기위한 홈페이지<br> (deepfake로 의심이 되는 영상을 판독한다)<br></div>
+
+	    <div class="main">
+				<p style="padding:0px;">Drag and Drop your image!</p>
+				<div class="content">
+				</div>
+				<div class="result"><br>RESULT
+					<table id="t1" >
+						<tr>
+							<td>확률</td>
+							<td>{{precision}}</td>
+						</tr>
+						<tr>
+							<td>결과</td>
+							<td>{{result}}</td>
+						</tr>
+					</table>
+				</div>
+				<form action="" method="post" enctype="multipart/form-data">
+					{% csrf_token %}
+					<label for="file">이미지 업로드 테스트</label>
+					<input type="file" name="file" id="file" style="padding:0px;" accept="image/*,video/*" onchange="inputfunc();">
+					<button type="submit">제출</button>
+				</form>
+			</div>
+
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script>
+			$('.content')
+				.on("dragover",dragOver)
+				.on("dragleave",dragOver)
+				.on("drop",uploadFiles);
+
+			function dragOver(e){
+				console.log("dragover");
+				e.stopPropagation();
+				e.preventDefault();
+				if (e.type == "dragover") {
+			        $(e.target).css({
+			            "background-color": "black",
+			            "outline-offset": "-20px"
+			        });
+			    } else {
+			        $(e.target).css({
+			            "background-color": "gray",
+			            "outline-offset": "-10px"
+			        });
+			    }
+			}
+
+			function uploadFiles(e){
+				e.stopPropagation();
+				e.preventDefault();
+				dragOver(e);
+
+				e.dataTransfer=e.originalEvent.dataTransfer;
+				var files=e.target.files||e.dataTransfer.files;
+				if(files.length>1){
+					alert('파일은 하나만 올릴 수 있습니다.');
+					return;
+				}
+				if (files[0].type.match(/image.*/)) {
+					console.log(e.target);
+				    $(e.target).css({
+				        "background-image": "url(" + window.URL.createObjectURL(files[0]) + ")",
+				        "outline": "none",
+				        "background-size": "100% 100%"
+				    });
+				}else{
+				  alert('이미지가 아닙니다.');
+				  return;
+				}
+			}
+
+			function inputfunc(){
+				var preview=document.querySelector('.content');
+				var file=document.querySelector('input[type=file]').files[0];
+				var reader=new FileReader();
+
+				reader.addEventListener("load",function(){
+					$(preview).css({
+				        "background-image": "url(" + window.URL.createObjectURL(file) + ")",
+				        "outline": "none",
+				        "background-size": "100% 100%"
+				    });
+				},false);
+
+				if(file){
+					reader.readAsDataURL(file);
+				}
+			}
+
+		</script>
+
+	</body>
+
+</html>

@@ -73,13 +73,17 @@ What is [Inverted residual block](2nd_Semester/img/inverted_residual.JPG) / [Dep
 #### Our dataset(2) - from semester 1
 ![pre-trained model result](2nd_Semester/img/our_dataset.JPG)
 
-#### homepage (Img)
+#### [ Video Detection ]
+![hm1](2nd_Semester/img/detect_video.JPG)
+
+
+#### Detecting homepage (Img+Video)
 ![hm1](2nd_Semester/img/hm1.png)
 
 <br>
 
 ![hm2](2nd_Semester/img/hm2.png)
 
-[hm](hm)
+[final_code](2nd_Semester/final_code)
 
 

@@ -1,0 +1,338 @@
+@media only screen and (min-device-width : 769px) and (min-width:1000px){
+    a{
+        text-decoration:none;
+        color:white;
+    }
+    html, body{
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        margin:0;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    #map{
+        width:100%;
+        height:90%;
+        overflow:hidden;
+
+    }
+    #nav{
+        width:100%;
+        z-index:1;
+        position:sticky;
+        top:0;
+        display:flex;
+        height:10%;
+        min-height:96.89px;
+        background-color:#3D3D3D;
+        text-align:center;
+        align-items:center;
+        justify-content: space-between;
+        box-shadow : 0 0 2em 0 gray;
+    }
+    #knu_map{
+        font-size: 3em;
+        color:white;
+        text-align:center;
+        vertical-align:middle;
+        margin-left:0.5em;
+    }
+    #menu{
+        display:flex;
+        text-align:center;
+        vertical-align:middle;
+        flex-direction: row-reverse;
+    }
+    .m{
+        color:white;
+        text-align:center;
+        vertical-align:middle;
+        margin: 0 1em;
+        float:right;
+        font-size:1.5em;
+    }
+    #menu_m{
+        display:none;
+    }
+    /* ë¯¸ë””ì–´ ì¿¼ë¦¬ë§ˆë‹¤ ì „ë¶€ ì¶”ê°€í•´ë‘  */
+    #footer{
+        width:100%;
+        z-index:0;
+        position:sticky;
+        bottom:0;
+        overflow:hidden;
+        display:flex;
+        min-height:80.09px;
+        font-size:0.7vw;
+        color:gray;
+        background-color: #d9d9d9;
+        text-align:center;
+        align-items:center;
+        justify-content: space-around;
+        box-shadow : 0 0 2em 0 gray;
+    }
+    @media only screen and (min-width:1215px){
+        #map{
+            height:93%;
+        }
+        #footer{
+            min-height:70.09px;
+        }
+        #wrapper{
+            width:95%;
+            display:flex;
+            justify-content: space-between;
+        }
+    }
+}
+@media only screen and (min-device-width : 769px) and (max-width:999px){
+    a{
+        text-decoration:none;
+        color:white;
+    }
+    html, body{
+        font-size:9px;
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        margin:0;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    #map{
+        width:100%;
+        height:90%;
+        overflow:hidden;
+    }
+    #map >div{
+        text-align:center;
+    }
+    #nav{
+        width:100%;
+        z-index:1;
+        position:sticky;
+        top:0;
+        display:flex;
+        height:10%;
+        min-height:80.8px;
+        background-color:#3D3D3D;
+        text-align:center;
+        align-items:center;
+        justify-content: space-between;
+        box-shadow : 0 0 2em 0 gray;
+    }
+    #knu_map{
+        font-size: 2.7em;
+        color:white;
+        text-align:center;
+        vertical-align:middle;
+        margin-left:1.8em;
+    }
+    #menu{
+        display:none;
+    }
+    #footer{
+        width:100%;
+        z-index:0;
+        position:sticky;
+        bottom:0;
+        overflow:hidden;
+        display:flex;
+        height:10%;
+        min-height:80.69px;
+        font-size:0.7vw;
+        color:gray;
+        background-color: #d9d9d9;
+        text-align:center;
+        align-items:center;
+        justify-content: space-around;
+        box-shadow : 0 0 2em 0 gray;
+    }
+    #icon{
+        margin-top:4.62em;
+        color:white;
+    }
+    #umenum{
+        margin-top:1em;
+        box-shadow: 0 0 2em 0 black;
+        visibility:hidden;
+    }
+    .m{
+        border:1px solid;
+        padding:0.3em 0.5em;
+        background-color:#3d3d3d;
+        font-size:2em;
+    }
+    @media only screen and (max-width : 339px){
+        #umenum{
+            margin-top:1em;
+            box-shadow: 0 0 2em 0 black;
+            font-size:0.8em;
+        }
+
+        #icon{
+            margin-top:3.89em;
+        }
+
+        #knu_map{
+            margin-left:0.9em;
+        }
+    }
+}
+@media only screen and (min-width : 426px) and (max-device-width : 768px){
+    a{
+        text-decoration:none;
+        color:white;
+    }
+    html, body{
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        margin:0;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    #map{
+        width:100%;
+        height:90%;
+        overflow:hidden;
+    }
+    #nav{
+        width:100%;
+        z-index:1;
+        position:sticky;
+        top:0;
+        display:flex;
+        height:10%;
+        background-color:#3D3D3D;
+        text-align:center;
+        align-items:center;
+        justify-content: space-between;
+        box-shadow : 0 0 2em 0 gray;
+    }
+    #knu_map{
+        font-size: 2.1em;
+        color:white;
+        text-align:center;
+        vertical-align:middle;
+        margin-left:0.5em;
+    }
+    #menu{
+        display:flex;
+        text-align:center;
+        vertical-align:middle;
+        flex-direction: row-reverse;
+    }
+    .m{
+        color:white;
+        text-align:center;
+        vertical-align:middle;
+        margin: 0 1em;
+        float:right;
+        font-size:1.2em;
+    }
+    #menu_m{
+        display:none;
+    }
+    #footer{
+        width:100%;
+        z-index:1;
+        position:sticky;
+        bottom:0;
+        overflow:hidden;
+        display:flex;
+        height:10%;
+        font-size:10px;
+        color:gray;
+        background-color: #d9d9d9;
+        text-align:center;
+        align-items:center;
+        justify-content: space-around;
+        box-shadow : 0 0 2em 0 gray;
+    }
+}
+@media only screen and (max-width : 425px){
+    a{
+        text-decoration:none;
+        color:white;
+    }
+    html, body{
+        font-size:9px;
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        margin:0;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    #map{
+        width:100%;
+        height:88%;
+        overflow:hidden;
+
+    }
+    #nav{
+        width:100%;
+        z-index:1;
+        position:sticky;
+        top:0;
+        display:flex;
+        height:10%;
+        background-color:#3D3D3D;
+        text-align:center;
+        align-items:center;
+        justify-content: space-between;
+        box-shadow : 0 0 2em 0 gray;
+    }
+    #knu_map{
+        font-size: 2.7em;
+        color:white;
+        text-align:center;
+        vertical-align:middle;
+        margin-left:1.8em;
+    }
+    #menu{
+        display:none;
+    }
+    #footer{
+        width:100%;
+        z-index:1;
+        position:sticky;
+        bottom:0;
+        overflow:hidden;
+        display:flex;
+        height:12%;
+        font-size:10px;
+        color:gray;
+        background-color: #d9d9d9;
+        text-align:center;
+        align-items:center;
+        justify-content: space-around;
+        box-shadow : 0 0 2em 0 gray;
+    }
+    #icon{
+        margin-top:4.62em;
+        color:white;
+    }
+    #umenum{
+        margin-top:1em;
+        box-shadow: 0 0 2em 0 black;
+        visibility:hidden;
+    }
+    .m{
+        border:1px solid;
+        padding:0.3em 0.5em;
+        background-color:#3d3d3d;
+        font-size:2em;
+    }
+    @media only screen and (max-width : 360px){
+        #umenum{
+            margin-top:1em;
+            box-shadow: 0 0 2em 0 black;
+            font-size:0.8em;
+        }
+        #icon{
+            margin-top:3.89em;
+        }
+        #knu_map{
+            margin-left:0.9em;
+        }
+    }
+}
